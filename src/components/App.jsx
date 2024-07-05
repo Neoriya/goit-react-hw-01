@@ -1,8 +1,14 @@
+import Header from "./Header/Header";
+import Body from "./Body/Body";
+import Footer from "./Footer/Footer";
+
 const App = () => {
   return (
-    <div>
-      <h1>BHNJMK</h1>
-    </div>
+    <main>
+      <Header />
+      <Body />
+      <Footer />
+    </main>
   );
 };
 
