@@ -1,4 +1,8 @@
 .message {
-  color: blueviolet;
+  color: rgb(226, 220, 43);
   background-color: rgb(48, 39, 27);
+}
+
+.colors {
+  color: rgb(181, 50, 187);
 }
