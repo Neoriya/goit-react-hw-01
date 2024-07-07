@@ -1,0 +1,75 @@
+.container {
+  margin: auto;
+  width: 650px;
+  height: auto;
+  background-color: rgb(245, 245, 245);
+  border-style: solid;
+  border-color: black;
+  border-radius: 16px;
+  border-width: 3px;
+  overflow: hidden;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+
+  img {
+    width: 260px;
+    height: auto;
+    background-color: rgb(39, 39, 39);
+    border-radius: 50%;
+  }
+
+  .userName {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .userTag,
+  .userLocation {
+    color: rgb(129, 129, 129);
+    font-size: 44px;
+    font-weight: 300;
+  }
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(189, 189, 189);
+  list-style: none;
+  border-top: 3px solid rgb(129, 129, 129);
+
+  .statsData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    flex: 1;
+  }
+
+  .statsLabel {
+    color: black;
+    font-size: 35px;
+    font-weight: 300;
+  }
+
+  .statsValue {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .statsData:nth-child(2) {
+    border-left: 3px solid rgb(129, 129, 129);
+    border-right: 3px solid rgb(129, 129, 129);
+  }
+}
