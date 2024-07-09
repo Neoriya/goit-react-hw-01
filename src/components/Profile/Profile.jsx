@@ -1,5 +1,4 @@
 import s from "./Profile.module.css";
-import clsx from "clsx";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   const { followers, views, likes } = stats;

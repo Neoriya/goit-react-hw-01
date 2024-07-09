@@ -23,3 +23,9 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.containerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
