@@ -1,0 +1,37 @@
+.tableContainer {
+  padding-bottom: 50px;
+}
+
+.table {
+  background-color: rgb(0, 0, 0);
+  width: 660px;
+  text-align: center;
+}
+
+.tableLines {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.tableColumn {
+  background-color: rgb(46, 46, 46);
+  color: rgb(255, 255, 255);
+  padding: 6px;
+}
+
+.tableBodyLines {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.tableBodyColumn {
+  padding: 6px;
+}
+
+.tableBodyLines:nth-child(even) {
+  background-color: rgb(210, 210, 210);
+}
+
+.tableBodyLines:nth-child(odd) {
+  background-color: white;
+}
